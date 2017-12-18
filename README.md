@@ -16,7 +16,7 @@ http://www.ti.com/lit/ds/symlink/dac8554.pdf
 http://www.ti.com/lit/ds/symlink/dac8555.pdf
 
 
-The arduino communication with the chip happens via SPI, selecting the appropriate pins for each type of board through the command setPins (DIN, SCLK, SYNC). In Arduino Uno, the pins correspond to:
+The arduino communication with the chip happens via SPI, selecting the appropriate pins for each type of board through the command setPins(DIN, SCLK, SYNC). In Arduino Uno, the pins correspond to:
 
 DIN = MOSI ==> pin 11
 
