@@ -39,3 +39,5 @@ For the Chip, there are three options:
 2 ==> DAC8554 and DAC8555 ==> They have 4 channels. A (zero), B (1), C (2) and D (3).
 
 In the example, there are a program to generate a sawtooth wave on channel A and a sine wave on channel B, at the same time, using the DAC8552.
+
+The library does not have power down functionality present on these devices.
